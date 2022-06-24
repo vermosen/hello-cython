@@ -6,6 +6,7 @@
     "-p",
     "test_*.py"
   ],
+  "python.envFile": "${workspaceFolder}/.vscode/XPS13.env",
   "python.testing.pytestEnabled": false,
   "python.testing.unittestEnabled": true,
   "python.defaultInterpreterPath": "/opt/miniconda/envs/py38/bin/python",

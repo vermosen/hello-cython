@@ -26,6 +26,7 @@ setup(
     package_dir={"": "lib"},
     cmake_install_dir="lib/lora",
     install_requires=['cython'],
+    #gdb_debug=True,
     cmake_args=[],
     include_package_data = True,
     extras_require={"test": ["pytest"]},
